@@ -4,6 +4,7 @@
 
 Как определить к какой сети подключен?
 
+```
 web3.version.getNetwork((err, netId) => {
   switch (netId) {
     case "1":
@@ -19,4 +20,4 @@ web3.version.getNetwork((err, netId) => {
       console.log('This is an unknown network.')
   }
 })
-
+```
